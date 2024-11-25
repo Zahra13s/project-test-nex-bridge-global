@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+.product ul,
+.profile ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0;
+
+}
+
+.product li,
+.profile li {
+    padding: 10px;
+    margin: 25px 0px 25px 0px;
+    border-radius: 5px;
+}
+
+.product li {
+    margin: 10px 0px 10px 0px;
+    padding: 5px;
+}
+
+.product,
+.profile-image {
+    width: 150px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+.quantity {
+    padding-top: 20px;
+}
+
+.quantity input {
+    -webkit-appearance: none;
+    border: none;
+    text-align: center;
+    width: 40px;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 300;
+    margin: 0 10px;
+}
+
+button[class*=button] {
+    width: 30px;
+    height: 30px;
+    background-color: #E1E8EE;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.minus-button img {
+    margin-bottom: 3px;
+}
+
+.plus-button img {
+    margin-top: 2px;
+}
+
+button:focus,
+input:focus {
+    outline: none;
+}
